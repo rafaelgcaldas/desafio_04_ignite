@@ -13,23 +13,16 @@ interface Food {
   available: boolean;
 }
 
-interface ModalEditFoodData {
-  image: string;
-  name: string;
-  price: string;
-  description: string;
-}
-
-interface ModalAddFoodProps {
+interface ModalEditFoodProps {
   isOpen: boolean;
   editingFood: Food;
   setIsOpen: () => void;
-  handleUpdateFood: (data: ModalEditFoodData) => void;
+  handleUpdateFood: (data: Food) => void;
 }
 
-export const ModalEditFood = ({ isOpen, setIsOpen, editingFood, handleUpdateFood }: ModalAddFoodProps) => {
+export const ModalEditFood = ({ isOpen, setIsOpen, editingFood, handleUpdateFood }: ModalEditFoodProps) => {
 
-  const handleSubmit = async (data: ModalEditFoodData) => {
+  const handleSubmit = async (data: Food) => {
     handleUpdateFood(data);
     setIsOpen();
   };

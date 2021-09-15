@@ -18,9 +18,9 @@
     },
     {
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png",
-      "name": "Teste",
-      "price": "29.99",
-      "description": "Um prato muito muito muito muito muito muito muito doido",
+      "name": "Teste 03",
+      "price": "24.99",
+      "description": "Teste descrição de um prato muito muito muito louco 03",
       "available": true,
       "id": 4
     }
