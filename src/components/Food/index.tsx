@@ -25,7 +25,7 @@ export const Food = ({ food, handleDelete, handleEditFood }: FoodProps) => {
   useEffect(() => {
     const { available } = food;
     setIsAvailable(available);
-  }, [])
+  }, [food])
 
   const toggleAvailable = async () => {
 
