@@ -8,6 +8,23 @@ Essa é uma aplicação já funcional onde o objetivo é realizar dois proces
 ### Template da aplicação
 https://github.com/rocketseat-education/ignite-template-reactjs-refactoring-classes-ts
 
+### Fake API com JSON Server
+Foi o JSON Server para simular uma API que possui as informações das comidas. 
+Navegue até a pasta criada, abra no Visual Studio Code e execute os seguintes comandos no terminal:
+
+```bash
+yarn
+yarn server
+```
+
+ Será inicializado uma fake API com o recurso /foods em localhost na porta 3333 a partir das informações do arquivo server.json localizado na raiz do seu projeto.
+ 
+ ### Para inicializar a aplicação
+ 
+ ```bash
+yarn start
+```
+
 ### O que foi editado na aplicação?
 - src/components/Food/index.jsx;
 - src/components/Food/styles.js;
